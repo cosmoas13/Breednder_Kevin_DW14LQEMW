@@ -1,0 +1,16 @@
+//User
+npx sequelize-cli seed:generate --name demo-user
+
+//Pet
+npx sequelize-cli seed:generate --name demo-train
+
+//Spesies
+npx sequelize-cli seed:generate --name demo-typeTrain
+
+//Payment
+npx sequelize-cli seed:generate --name demo-station
+
+//Match
+npx sequelize-cli seed:generate --name demo-payment
+
+ticket, train, type, stations

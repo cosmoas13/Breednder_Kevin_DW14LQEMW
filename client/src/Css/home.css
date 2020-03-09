@@ -1,0 +1,156 @@
+  /* body kanan */
+
+  .body-kanan {
+    background-image: url("bgpages.png");
+    background: cover;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+    height: 70%;
+  }
+
+  .icon-pages {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg-icon {
+    color: white;
+    background-color: white;
+  }
+
+  .row-icon {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* image kanan */
+
+  .boxRight-Footer {
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    bottom: 5px;
+    width: 100%;
+    height: 0%;
+    margin-bottom: 100px;
+    position: absolute;
+    justify-content: center;
+  }
+
+  .image-kanan {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .image-kanan-2 {
+    width: 43px;
+    height: 43px;
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+
+  .image-kanan-div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .image-kanan-div-2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .row-image-kanan{
+    margin-top: 645px;
+    margin-left: 125px;
+
+  }
+  .col-image-kanan1{
+    left: 0px;
+  }
+  .col-image-kanan2{
+    bottom: 4px;  
+    left: 25px;
+  }
+  .col-image-kanan3{
+    bottom: 4px;
+    left: 60px;
+  }
+  .col-image-kanan4{
+    left: 95px;
+  }
+
+/* button */
+
+  .btnLogo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* body kiri */
+
+  .pet-picture {
+    display: flexbox;
+  }
+
+  .pet-name {
+    color: white;
+  }
+
+  .round-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .body-kiri {
+    overflow: auto;
+    width: auto;
+  }
+
+  .kiri-textgambar {
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px #0e5564;
+    margin-top: 85%;
+  }
+
+  .text-gambar {
+    text-align: center;
+  }
+
+  .kiri-image-container {
+    text-align: center;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    width: 125px;
+    height: 150px;
+  }
+
+  .image-body {
+    padding-left: auto;
+    padding-right: auto;
+  }

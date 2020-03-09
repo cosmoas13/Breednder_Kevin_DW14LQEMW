@@ -1,0 +1,100 @@
+.Container-app {
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .container-footer {
+  margin-bottom: 30px;
+  position: sticky;
+} */
+
+.container-app {
+  flex: 1;
+}
+
+.custom {
+  width: 200px !important;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.customLogin {
+  width: 100px !important;
+  height: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.txtModalHeaderH {
+  margin-left: 180px;
+  margin-bottom: 0px;
+}
+
+.txtModalJumbo {
+  margin-left: 160px;
+  margin-bottom: 0px;
+}
+
+.jumbo {
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+  font-weight: 50px;
+  color: d#0e5564;
+}
+
+.btnLogin :hover {
+  color: aqua;
+}
+
+#btnJumbo {
+  border: none;
+  border-radius: 80px;
+}
+
+.jumbo-border {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.jumboText {
+  position: fixed;
+  margin-top: -40px;
+  height: 300px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0e5564;
+}
+
+.tombol {
+  display: flex;
+  padding-top: 0px;
+  justify-content: center;
+}
+
+#footer {
+  text-align: center;
+  text-shadow: black;
+  box-shadow: black;
+}
+
+#body-register::-webkit-scrollbar {
+  display: none;
+}
+
+#body-register {
+  overflow: auto;
+  overflow: hidden;
+}

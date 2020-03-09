@@ -1,0 +1,59 @@
+.body {
+  margin: 0;
+  background-image: url("bgprofile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* html{
+  overflow: scroll;
+  overflow:  hidden visible;
+} */
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.body-kanan-profil {
+  background-image: url("wa.png");
+  background: cover;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.img-col {
+  width: 110px;
+  height: 140px;
+  padding: 0px;
+  margin: 3px;
+  margin-left: -1px;
+}
+
+.card-profile {
+  margin-top: 0px;
+  margin-left: 250px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.edit-photo {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100px;
+  height: 100px;
+  margin-left: -10px;
+  padding: 0px;
+}
+
+.edit-photo-container {
+  padding: 10px;
+  margin-top: 10px;
+}

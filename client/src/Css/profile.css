@@ -1,0 +1,50 @@
+.body {
+    margin: 0;
+    background-image: url("bgprofile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .body-kanan-profile{
+    background-image: url("wa.png");
+    background: cover;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .body-kiri-profile{
+    width: 100%;
+    height: 100%;
+  }
+
+/* .card-profile{
+  margin-top: 0px;
+  margin-left: 250px;
+  max-width: 350px;
+  padding: 5px;
+} */
+
+
+
+.upload-image{
+  width: 100px;
+  height: 100px;
+
+}
+
+.body-upload{
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.btn-tinder{
+  margin-left: 50px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "pics": ["doggo1.jpg"],
+    "name": "Heather",
+    "age": 3,
+    "distance": "4 miles away",
+    "text": "Orang Jahat adalah Orang Baik yang Tersakiti"
+  },
+  {
+    "pics": ["pujangga1.jpg"],
+    "name": "Chloe",
+    "age": 18,
+    "distance": "1 mile away",
+    "text": "The C and the L are silent."
+  },
+  {
+    "pics": ["kodok.jpg"],
+    "name": "Froggy",
+    "age": 12,
+    "distance": "1 miles away",
+    "text": "Kodok dewa"
+  },
+  {
+    "pics": ["kucingpersia.jpg"],
+    "name": "Catty",
+    "age": 18,
+    "distance": "10 mile away",
+    "text": "Kucing kucingan"
+  },
+  {
+    "pics": ["tupai.jpg"],
+    "name": "Squirell",
+    "age": 3,
+    "distance": "4 miles away",
+    "text": "Orang Jahat adalah Orang Baik yang Tersakiti"
+  },
+  {
+    "pics": ["batman.jpg"],
+    "name": "Wayne",
+    "age": 45,
+    "distance": "8 miles away",
+    "text": "Orang Jahat adalah Orang Baik yang Tersakiti"
+  }
+]

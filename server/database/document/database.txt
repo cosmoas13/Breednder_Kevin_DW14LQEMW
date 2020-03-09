@@ -1,0 +1,40 @@
+//Create Database User
+npx sequelize-cli model:generate --name user --attributes name:string,username:string,email:string,
+password:string,gender:string,phone:string,address:string
+
+//Create Database Type Train
+npx sequelize-cli model:generate --name typeTrain --attributes name:string
+
+//Create Database Station
+npx sequelize-cli model:generate --name station --attributes  nameTrain:string typeTrain_id:string, dateStart:dateonly,
+startStation:string,startTime:time,destinationStation:string,arrivalTime:time,price:string
+
+//Create Database Payment
+npx sequelize-cli model:generate --name payment --attributes qty:string,totalPrice:string,
+status:string,attachment:string
+
+-------------------------------------------------------------------------- db ver 2 ----------------------------------------
+
+//Create Database ticket
+npx sequelize-cli model:generate --name ticket --attributes train:string,startStation:string,type:string,dateStart:dateonly,startTime:dateonly,arrivalTime:time,destination:string,price:string,qty:string
+
+//Create Database train
+npx sequelize-cli model:generate --name train --attributes name:string,type:string
+
+//Create Database type
+npx sequelize-cli model:generate --name type --attributes name:string
+
+//Create Database stations
+npx sequelize-cli model:generate --name stations --attributes code:string,name:string,city:string
+
+//Create Database payment
+npx sequelize-cli model:generate --name payment --attributes user_id:string,train_id:string,qty:string,depart:string,destination:string,date:dateonly,status:string,total:string
+
+//migrate
+npx sequelize db:migrate
+
+//undo migrate
+npx sequelize db:migrate:undo:all
+
+//seed
+npx sequelize db:seed:all
