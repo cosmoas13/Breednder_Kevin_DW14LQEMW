@@ -99,7 +99,8 @@ Wait till the application is installed and run into your device. Now, you can ex
 
 ## Screenshots
 
-https://user-images.githubusercontent.com/29488803/76938703-b1748300-6929-11ea-85db-5227069015d6.png
+![screencapture-localhost-3000-2020-03-05-15_47_05](https://user-images.githubusercontent.com/29488803/76938703-b1748300-6929-11ea-85db-5227069015d6.png)
+
 
 ## Built With
 
