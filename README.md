@@ -99,7 +99,7 @@ Wait till the application is installed and run into your device. Now, you can ex
 
 ## Screenshots
 
-<img src="docs/screenshots/screenshots.png" />
+https://github.com/cosmoas13/Breednder_Kevin_DW14LQEMW/issues/1#issue-583543511
 
 ## Built With
 
