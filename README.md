@@ -93,7 +93,7 @@ Then, install and run the application.
 
 `npm start`
 
-Wait till the application is installed and run into your device. Now, you can explore coHyPe and its features. Enjoy!
+Wait till the application is installed and run into your device. Now, you can explore TiketTiket and its features. Enjoy!
 
 ## Screenshots
 
